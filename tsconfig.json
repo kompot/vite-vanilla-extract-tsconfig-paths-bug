@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "ES2019", "ESNext.Intl"],
+    "allowJs": true,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "noUnusedLocals": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "frontm/*": ["src/default/*"]
+    },
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "**/*.spec.js",
+    "**/*.test.js",
+    "**/__mocks__/*",
+    "**/__tests__/*"
+  ]
+}
